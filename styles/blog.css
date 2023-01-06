@@ -1,0 +1,39 @@
+@import "../styles/home.css";
+
+#blog {
+  display: flex;
+  margin-top: 20px;
+  padding: 40px 80px;
+}
+
+#blog .single-pro-image {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#blog .first-blog {
+  width: 50%;
+  padding-top: 30px;
+}
+
+#blog .first-blog h4 {
+  padding: 40px 0 20px 0;
+}
+
+#blog .first-blog h2 {
+  font-size: 26px;
+}
+
+#blog .first-blog p {
+  line-height: 25px;
+}

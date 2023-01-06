@@ -1,0 +1,156 @@
+@media (max-width: 901px) {
+  /* Home Page */
+  #navbar li {
+    margin-bottom: 25px;
+    margin: 20px;
+  }
+
+  .top-container {
+    grid-template-areas:
+      "showcase showcase"
+      "top-box-a top-box-b";
+  }
+
+  .showcase h2 {
+    font-size: 2.5rem;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .gallery-block {
+    padding: 1rem;
+    align-items: center;
+    box-shadow: var(--shadow);
+  }
+
+  /* Blog Page */
+}
+
+@media (max-width: 900px) and (min-width: 600px) {
+  #header {
+    padding: 10px 30px;
+  }
+
+  #header h1 {
+    font-size: 1rem;
+  }
+
+  #navbar li {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .top-container {
+    display: grid;
+    grid-template-areas:
+      "showcase"
+      "top-box-a"
+      "top-box-b";
+  }
+
+  .showcase h1,
+  .showcase h3 {
+    font-size: 1rem;
+    color: var(--light);
+  }
+
+  .showcase p {
+    font-size: 0.8rem;
+  }
+
+  .top-box h4 {
+    font-size: 1rem;
+  }
+
+  .top-box .small-box {
+    font-size: 1rem;
+  }
+
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .gallery-block {
+    padding: 1rem;
+    align-items: center;
+    box-shadow: var(--shadow);
+  }
+
+  /* Blog Page */
+  #blog {
+    flex-direction: column;
+  }
+
+  #blog .single-pro-image {
+    width: 100%;
+    margin-right: 50px;
+  }
+
+  #blog .first-blog {
+    width: 100%;
+  }
+
+  #blog .first-blog h4 {
+    padding: 0;
+  }
+
+  #blog .first-blog h2 {
+    font-size: 16px;
+  }
+
+  #blog .first-blog p {
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin: 0;
+  }
+
+  #header {
+    padding: 0px 0px;
+  }
+
+  #header h1 {
+    font-size: 0.7rem;
+  }
+
+  #navbar li {
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  .top-container {
+    display: grid;
+    grid-template-areas:
+      "showcase"
+      "top-box-a"
+      "top-box-b";
+  }
+
+  /* Blog Page */
+  #blog {
+    flex-direction: column;
+  }
+
+  #blog .single-pro-image {
+    width: 100%;
+  }
+
+  #blog .first-blog {
+    width: 100%;
+  }
+
+  #blog .first-blog h4 {
+    padding: 0;
+  }
+}
