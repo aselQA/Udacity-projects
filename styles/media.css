@@ -111,22 +111,29 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 590px) {
   body {
     margin: 0;
   }
 
   #header {
-    padding: 0px 0px;
+    flex-direction: column;
+    padding: 0;
   }
 
   #header h1 {
-    font-size: 0.7rem;
+    font-size: 1rem;
+    margin-bottom: 0;
   }
 
   #navbar li {
     margin-bottom: 0;
-    padding: 0;
+    padding: 0 0;
+  }
+
+  #navbar li a {
+    text-decoration: none;
+    font-size: 1rem;
   }
 
   .top-container {
@@ -152,5 +159,41 @@
 
   #blog .first-blog h4 {
     padding: 0;
+  }
+}
+
+@media (max-width: 380px) {
+  .showcase h1 {
+    font-size: 2rem;
+  }
+  .showcase h3 {
+    font-size: 1.5rem;
+  }
+  .showcase p {
+    font-size: 1rem;
+  }
+
+  #features {
+    padding: 0.2rem;
+  }
+
+  .gallery-block {
+    padding: 0;
+  }
+
+  .gallery-header h3 {
+    font-size: 1rem;
+  }
+
+  .gallery-block p {
+    font-size: 0.7rem;
+  }
+
+  #blog {
+    padding: 10px 10px;
+  }
+
+  #blog .first-blog p {
+    font-size: 1rem;
   }
 }
